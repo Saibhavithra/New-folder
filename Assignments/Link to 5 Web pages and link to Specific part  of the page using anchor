@@ -1,0 +1,17 @@
+<html>
+<body>
+    <h1>Performing Arts</h1>
+    <a href= "Dance.html">Dance</a><br>
+    <a href= "Song.html"> Song</a><br>
+    <a href= "Music.html"> Music</a><br>
+    <a href=" Taekwondo.html"> Taekwondo</a><br>
+    <a href=" Language.html"> Language</a>
+    <hr>
+
+    <pr>
+        The performing arts are arts such as music, dance, and drama which are performed for an audience.
+        They are different from the visual arts, which are the use of paint, canvas or various materials to create physical or static art objects.
+        Performing arts include a range of disciplines which are performed in front of a live audience, including theatre, music, and dance.
+    </pr><br><br>
+
+    <img src="Performing arts.jpg">

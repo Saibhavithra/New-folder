@@ -1,0 +1,60 @@
+<html>
+    <body>
+        <link rel="stylesheet" href="main.css"/>
+        <form action="index.html" method="Post">
+            <fieldset>
+                <legend>Personal Information</legend>
+        <table>
+            <tr>
+                <td><label for="Username">Username:</label></td>
+                <td><input type="text" name="username" id="Username"Placeholder ="Enter Username"Required /><br><br></td> 
+            </tr>
+            <tr>
+                <td><label for="Password">Password:</label></td>
+                <td><input type="Password" name="Password" id="Password"Placeholder ="Password"/><br><br></td>
+            </tr>
+            <tr>
+                <td> <label for="Email">Email:</label></td>
+                <td><input type="Email" name="Email" id="Email" Placeholder="Enter Email"/><br><br></td>
+            </tr>
+            <tr>
+                <td> <label for="dob">Date of Birth:</label></td>
+                <td><input type="date" name="dob" id="dob" max="2020-12-31"/><br><br></td>
+            </tr>
+            <tr>
+                <td> <label for="Hobbies">Hobbies:</label></td>
+                <td><input type="radio" name="Hobby" id="reading" Value="read"/>Reading</td>
+                <td><input type="radio" name="Hobby" id="Music" Value="Music"/>Music<br><br></td>
+            </tr>
+            <tr>
+                <td><label for ="city">Select City</label></td>
+                <td><select id="city" name ="city">
+                    <option value="London">London</option>
+                    <option value="Newyork" Selected>Ny</option>
+                    <option value="Paris">Paris</option>
+                    <option value="Mumbai">Mumbai</option>
+                </select><br><br></td>
+            </tr>
+            <tr>
+                <td><label for ="addr"> Address</label></td>
+                <td><textarea cols="30" rows="5" name="addr"></textarea></td>
+            </tr>
+        </table>
+    
+        
+        <input type="button" value="Register" onclick="alert('Button Clicked')"/>
+        <button onclick="alert('New Button Clicked')">Click here</button>
+        <br><br>
+        <input list="browsers" name="browser" id="browser">
+            <datalist id="browsers">
+              <option Value="Chrome"/>
+              <option Value="Edge"/>
+              <option Value="Firefox"/>
+              <option Value="Safari"/> 
+            </datalist>
+
+            <input type = "submit" value ="sign in"/><br><br>
+    </fieldset> 
+</form>          
+    </body>
+</html>

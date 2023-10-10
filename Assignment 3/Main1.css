@@ -1,8 +1,10 @@
+
 h1{text-shadow: 2px 2px 2px;
-color: blueviolet;}
+color: blueviolet;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-style:italic;}
 
 th{
-    
     background-color:rosybrown;
     color: yellow;
     text-transform: capitalize;
@@ -10,19 +12,38 @@ th{
     
 }
 *{text-align: center;
-    margin:auto;
-   }
+    margin: auto;
+    
+   }*
+ 
+ 
 a{text-decoration: none;
 color:green;}
+a:visited{
+    color:purple;
+}
 
 P {
     text-align:justify;
     letter-spacing: 2px;
     line-height: 1.5em;
+    font-size: 1.5vw;
+    font-style:italic;
+    
     
 }
 
+p:nth-of-type(2n)
 
+{background-color: blueviolet;
+font-size: x-small;
+
+}
+
+input:focus{background-color:blue;}
+
+textarea:focus{background-color:blue;}
+Select:focus {background-color: blue;}
 
 
      

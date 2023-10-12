@@ -1,0 +1,103 @@
+.flex-container{
+    margin:auto;
+    background-color: pink;
+    width: 775px;
+    height:450px;
+    display:flex;
+   flex-wrap: wrap;
+   
+}
+
+   .flex-item{
+       width:200px;   
+       margin:10px;
+       background-color: antiquewhite;
+       
+   }
+
+   .flex-item-1{
+    max-height: 50px;
+    min-width: 755px;
+    font-size:  30px;
+    background-color: rgb(30, 143, 180);
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .flex-item-2{
+    min-height: 300px;
+    text-align: center;
+    font-size:  30px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(30, 143, 180);
+    color:white;
+    }
+
+   .flex-item-3{
+    max-height: 50px;
+    min-width: 755px;
+    font-size:  30px;
+    background-color: rgb(30, 143, 180);
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .flex-item-4{
+    min-width: 535px;
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #c4274e;
+    align-content: flex-end;
+   }
+
+   .flex-item-Name{
+    font-size: 30px;
+    min-width: 500px;
+    min-height: 70px;
+    background-color: #c4274e;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+   }
+    
+
+   .flex-item-5{
+    max-width: 158px;
+    font-size: 30px;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+
+   .flex-item-6 {
+    max-width: 158px;
+    min-height: 100px; 
+    font-size:  30px;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+   }
+    
+   .flex-item-7{
+    max-width: 158px;
+    min-height: 100px;   
+    font-size:  30px;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+   }

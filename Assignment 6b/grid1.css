@@ -1,0 +1,103 @@
+body{
+    padding: 90px;
+ }
+
+.grid-container{
+    Margin:auto;
+    background-color:pink;;
+    width: 600px;
+    height: 400px;
+    display:grid;
+    text-align: center;
+    font-size: 30px;
+    grid-gap:20px;
+    grid-template-columns: 10px 180px 340px 10px;
+    grid-template-rows: 10px 40px 220px 40px;
+    grid-template-areas:
+    "Empty Empty"
+    "Header Header "
+    "sidebar1 sidebar2"
+    "footer footer "
+
+}
+
+.grid-item{
+    color:white;
+     background-color:pink
+ } 
+
+ .grid-item-1{
+    grid-area:Header;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color:rgb(0, 174, 255);
+
+ }
+
+ .grid-item-2{
+    grid-area:sidebar1;
+    grid-column-start: 2;
+    background-color:rgb(0, 174, 255);
+    display:grid;
+    align-items: center;
+ }
+
+ .grid-item-3{
+    grid-area:sidebar2;
+    grid-column-start: 3;
+    background-color: #c4274e;
+    display:grid;
+    grid-gap: 20px;
+    justify-content: center;   
+    grid-template-areas:    
+    "empty empty  empty"
+    "empty empty  empty"
+    "Name  Name   Name"
+    "image image1 image2"
+   
+  }
+
+
+ .grid-item-4{
+    grid-area:footer;
+    grid-column-end: 4;
+    grid-column-start: 2;
+    background-color:rgb(0, 174, 255);
+ }
+
+ .grid-Name {
+    grid-area:Name ;
+    background-color: #c4274e;
+    text-align: center;
+    font-size: 30px;
+ }
+
+ .grid-item-5{
+    grid-area:image ;
+    height: 80px;
+    width: 90px;
+    display:grid;
+    align-content: center;
+    justify-content: center;
+    
+    }
+
+.grid-item-6{
+        grid-area:image1 ;
+        height: 80px;
+        width: 90px;
+        display:grid;
+        align-content: center;
+        justify-content: center;
+        font-size: 25px;
+        }
+
+.grid-item-7{
+            grid-area: image2 ;
+            height: 80px;
+            width: 90px;
+            display:grid;
+            align-content: center;
+            justify-content: center;
+            font-size: 25px;
+            }

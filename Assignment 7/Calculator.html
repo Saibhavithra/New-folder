@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <title>Calculator</title>
+    <h1>Simple Math</h1>
+    <style>
+        h1{ margin-left: 10%;
+            color:blueviolet;
+            font-family:Italic;
+             font-size: xx-large;}
+        body{ 
+            margin-left: 40%;
+            background-color: pink;
+            font-style: italic;
+            font-size: 20px;
+        }
+        
+            
+        }
+        button:hover{background-color: aqua;}
+        button:focus{
+            background-color: blueviolet;
+            color:aqua}
+    </style>
+</head>
+<body>
+    <table>
+        <th></th>
+        <tbody>
+     <tr><td>Enter FirstNumber :</td><td><input type="number" id="num1"><br><br></td></tr>
+     <tr><td>Enter SecondNumber:</td><td><input type="number" id="num2"> <br><br></tr></td>
+     <tr><td>Enter ThirdNumber:</td><td><input type="number" id="num3"> <br><br></tr></td>
+     <tr><td>Enter FourthNumber:</td><td><input type="number" id="num4"> <br><br></tr></td>
+     <tr><td>Enter FifthNumber:</td><td><input type="number" id="num5"> <br><br></tr></td>
+    </tbody>
+    </table>
+    <button onclick="change()">CALCULATE</button><br><br>
+    <table>
+        <th>
+        </th>
+    <tbody>
+    <tr><td>SUM  </td><td><div id="div1">ADD</div></td></tr>
+    <tr><td>REMAINDER </td><td><div id="div2">SUB</div></td></tr>
+    <tr><td>PRODUCT  </td><td><div id="div3">PRODUCT</div></td></tr>
+    <tr><td>QUOTIENT </td><td><div id="div4">QUOTIENT</div></td></tr>
+  </tbody>
+    </table>
+  
+    <script src = "Calculator.js"></script>
+   
+
+
+</body>
+</html>

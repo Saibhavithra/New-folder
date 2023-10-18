@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>Game</title>
+    <h1>Lucky Number</h1>
+    <style>
+    h1{ margin-left: 10%;
+        color:blueviolet;
+        font-family:Italic;
+         font-size: xx-large;}
+    body{ 
+        margin-left: 40%;
+        background-color: pink
+    }
+    button:hover{background-color: aqua;}
+    button:focus{
+        background-color: blueviolet;
+        color:aqua}
+    </style>
+</head>
+<body>
+    <table>
+        <th></th>
+        <tbody>
+     <tr><td>Guess my Lucky number :</td><td><input type="number" id="num1"><br><br></td></tr>
+     <tbody>
+    </tbody>
+</table>
+<button onclick="Validate()">CHECK</button><br><br>
+<table>
+    <th>
+    </th>
+<tbody>
+<tr><td>Lucky Number: </td><td><div type="number" id="div1"></div></td></tr>
+<tr><td>Attempt: </td><td><div id="div2"></div></td></tr>
+</tbody>
+</table>
+
+
+<script src = "LuckyNumber.js"></script>

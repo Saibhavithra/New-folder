@@ -1,0 +1,65 @@
+<html>
+    <body>
+        <link rel="stylesheet" href="./form1.css"/>
+        <script src ="./form1.js"></script>
+        
+            <fieldset>
+                <body>
+                    <div class="flex-container">
+                        <div class="flex-item flex-item-1">Personal Information</div>
+                      
+                               
+                <legend></legend>
+        <table>
+           
+            <tr>
+                <td><label for="FirstName">FirstName:</label></td>
+                <td><input type="text" name="FirstName" id="FirstName"Placeholder ="Enter Firstname"Required /><br><br></td> 
+            </tr>
+            <tr>
+                <td><label for="LastName">LastName:</label></td>
+                <td><input type="text" name="LastName"id="LastName"Placeholder ="Enter Lastname"/><br><br></td>
+            </tr>
+            <tr>
+                <td> <label for="Email">Email:</label></td>
+                <td><input type="Email" name="Email" id="Email" Placeholder="Enter Email"/><br><br></td>
+            </tr>
+            <tr>
+                <td><label for="Mobile">Mobile:</label></td>
+                <td><input type="number"name="Mobile" id="Mobile" Placeholder="Enter Mobile"/><br><br></td>
+            </tr>
+            <tr>
+                <td> <label for="dob">Date of Birth:</label></td>
+                <td><input type="date" name="dob" id="dob" max="2020-12-31"/><br><br></td>
+            </tr>
+        </div>
+            <tr>
+             <div id="Gender">
+                <td> <label for="Gender">Gender:</label></td>
+                <td><input type="radio" name="Gender" id="Female" value="Female"/>Female</td>
+                <td><input type="radio" name="Gender" id="Male"  value="Male"/>Male</td>
+            </div>  
+            </tr>
+        
+            <tr>
+                <td><label for ="addr"> Address</label></td>
+                <td><textarea cols="30" rows="5" name="addr" id="addr"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><label for ="city">Select City</label></td>
+                <td><select id="city" name ="city">
+                    <option value="London">London</option>
+                    <option value="Newyork" Selected>Ny</option>
+                    <option value="Paris">Paris</option>
+                    <option value="Mumbai">Mumbai</option>
+                </select><br><br></td>
+            </tr>           
+      
+        </table>
+        <input type="button" value="submit" onclick= "submit()"/>
+        
+    </fieldset> 
+</form>          
+    </body>
+</html>

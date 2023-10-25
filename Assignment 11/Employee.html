@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+
+
+    <body>
+        <link rel="stylesheet" href="./Employee.css"/>
+        <form action="Result.html">
+        <script src ="./Employee.js"></script>
+        
+            <fieldset>
+                <body>
+                    <div class="flex-container">
+                        <div class="flex-item flex-item-1">Personal Information</div>
+                      
+                               
+                <legend></legend>
+        <table>
+           
+            <tr>
+                <td><label for="Name">Name:</label></td>
+                <td><input type="text" name="Name" id="Name"Placeholder ="Enter name"Required /><br><br></td> 
+            </tr>
+            
+            <tr>
+                <td> <label for="Number">Employee Id:</label></td>
+                <td><input type="Empid" name="Empid" id="Empid" Placeholder="Enter Empid"/><br><br></td>
+            </tr>
+          
+            <tr>
+                <td> <label for="doj">Date of Joining:</label></td>
+                <td><input type="date" name="doj" id="doj" max="2020-12-31"/><br><br></td>
+            </tr>
+            
+            <tr>
+                <td> <label for="hours">Worked Hours:</label></td>
+                <td><input type="number" name="hours" id="hours" min="0" /><br><br></td>
+            </tr>
+
+        </div>
+            <tr>
+             <div id="Designation">
+                <td> <label for="Designation">Designation:</label></td>
+                <td><input type="radio" name="Designation" id="Manager" value="Manager"/>Manager</td>
+                <td><input type="radio" name="Designation" id="Consultant"  value="Consultant"/>Consultant</td>
+                <td><input type="radio" name="Designation" id="Trainee"  value="Trainee"/>Trainee</td>
+            </div>  
+            </tr>
+        
+            </table>
+        <input type="submit" value="send" onclick="send()"/>   
+       
+        
+    </fieldset> 
+</form>          
+    </body>
+</html>

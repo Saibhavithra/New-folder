@@ -9,9 +9,9 @@ let details = {
 
  if(details.Designation == "Manager"){
         var  salary = details.Worked_Hours*90;}
-        else if(Designation == "Consultant") {
+        else if(details.Designation == "Consultant") {            
          var  salary = details.Worked_Hours*70;}
-        else if(Designation == "Trainee"){
+        else if(details.Designation == "Trainee"){           
         var  salary = details.Worked_Hours*45;}
    alert("send")
    let textValue = details.Name +"    "+"who is a  "+"    "+details.Designation +"   "+ "  will get $ "+ salary;
